@@ -1,0 +1,93 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-family: Poppins;
+	font-size: 16px;
+	line-height: 24px;
+	color: #5A5A5A;
+;
+}
+/* -------------- */
+.wrapper {
+		overflow: hidden;
+}
+
+.text{
+margin: 0px 31% 0px 11%;
+}
+
+.imagebig {
+	width: 100%;
+}
+
+.text1 {
+	
+}
+
+.imagenormal {
+	width: 100%;
+	padding: 26px 0px 32px 0px
+}
+.title1 {
+font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+padding: 66px 0px 26px 0px;
+}
+
+.text2 {
+	
+	
+}
+
+.title2 {
+padding: 24px 0px 6px 0px;
+font-weight: 600;
+
+}
+
+.item {
+ padding: 0px 0px 20px 0px;
+	padding-left: 30px;
+line-height: 30px;
+}
+
+.comment {
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+padding-left: 20px;
+}
